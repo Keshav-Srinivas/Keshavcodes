@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <body bgcolor="orange">
+        <table border="1" cellspacing=0 width="100%" bgcolor="violet">
+            <tr>
+                <td align="center"><h1>Application Form</h1></td>
+            </tr>
+        </table>    
+        
+        <table bgcolor="lightblue" width="50%" align="center">
+            <tr>
+                <td align="center">
+                    First Name:
+					<input type="text" name="txtfrstname" required>
+                </td>    
+                <td align="center"> Last Name:
+                   <input type ="text " name="txtlstname " required>
+                  <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    Gender:
+					<input type="radio" name="chkgender">Male
+					<input type="radio" name="chkgender">Female
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    Nationality :
+					<input type="text" name="txtnation" value="" required>
+                    <td align="center">Date of birth :
+					<input type="date" name="dtdob"></td>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    Address:
+					<textarea name="tamessage" rows="3" cols="30" required></textarea>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    E-mail:
+					<input type="text" name="txtmail" value="" required>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    Attach your resueme:
+                    <input type="file" name="fluplaod" accept=".pdf" required>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table border="1" cellpadding="0" cellspacing="0" align="center" width="50%" bgcolor="violet">
+						<tr>
+							<td align="center">Available Position</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td align="center">Sales specialit</td>
+							<td>
+								<input type="checkbox" name="chkpos1" >
+							</td>
+						</tr>
+						<tr>
+							<td align="center">Cloud architect</td>
+							<td>
+								<input type="checkbox" name="chkpos2" >
+							</td>
+						</tr>
+						<tr>
+							<td align="center">Technical solutions consultant</td>
+							<td>
+								<input type="checkbox" name="chkpos3" >
+							</td>
+						</tr>
+						<tr>
+							<td align="center">Administrative buisness partner</td>
+							<td>
+								<input type="checkbox" name="chkpos4" required>
+							</td>
+						</tr>
+					</table>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit" value="SUBMIT"></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
