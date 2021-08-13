@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-size: x-large;    
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.486);
+    text-align: center;   
+} 
+.image{
+    background:url('nature.jpg') no-repeat;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.about{
+    
+    width: 500px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: -500px;
+}
+.abt2 {
+    line-height: 2;
+    margin-left: 850px;
+    width: 250px;
+   
+}
+ul{
+     list-style: none;
+}
+.abt3{
+    
+    margin-left: 1300px;
+    width: 250px;
+    margin-top: -315px;
+    line-height: 2;
+}
+
+.greyclr{
+    background-color: #80808091;
+    height: 500px;
+    padding-top: 20px; 
+    padding-left: 70px;
+}
+div div{
+    width: 22%;
+    height: 300px;
+     background-color: honeydew;
+     float: left;
+     margin: 10px;
+    box-shadow: 5px 5px 5px #89b6dd;
+    text-align: center;
+    
+}
+#p1{
+    text-align: center;
+    font-size: xx-large;
+    margin-top:-5px
+}
+
+td{
+    background-color: rgba(211, 211, 211, 0.685);
+    width :800px;
+    margin-left: 70px;
+    padding: 20px;
+}
+.w1{
+    background:url('w1.jpeg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.w2{
+    background:url('w2.jpg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.w3{
+    background:url('w3.jpg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.w4{
+    background:url('w4.jpg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.w5{
+    background:url('w5.jpg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.w6{
+    background:url('w6.jpg') no-repeat;
+    background-size: cover;
+    margin: 60px;
+}
+.end{
+    background-color: black;
+    height: 100px;
+    
+}
+.fb{
+    background:url('fb.png') no-repeat;    
+    margin-left: -800px;
+}
+.insta{
+    background:url('insta.webp') no-repeat;
+       margin-left: -750px;
+}
+.twitter{
+    background:url('twitter.png') no-repeat;
+    margin-left: -700px;
+}
+.linkin{
+    background:url('linkedin.png') no-repeat;
+    margin-left: -650px;
+}
+.pintrest{
+    background:url('pintrest.png') no-repeat;
+    margin-left: -600px;
+}
+.p2{ 
+    color: blanchedalmond;
+    background-color: black;
+    margin-top: -24px;
+}
+div p{
+    text-align: center;
+}
+.icon{
+    background-size: cover;
+    width: 50px;
+    height:50px;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: none;
+}		
+button{
+    background-color: lightskyblue;
+
+}			
